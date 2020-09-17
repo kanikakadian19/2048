@@ -1,0 +1,158 @@
+body {
+  background: #FAF8EF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.coolHeading {
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  color: rgb(83, 73, 73);
+  font-size: 25px;
+}
+
+.bottom-text{
+  font-size: 15px;
+
+}
+
+.App{
+  text-align: center;
+}
+
+.appContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.boardContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.boardStyle{
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  background-color:#BBAAAA ;
+  border-radius: 0.25rem;
+  margin-bottom: 3%;
+}
+
+.tileStyle{
+  height: 22.5%;
+  width: 22.5%;
+  margin:1%;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.25rem;
+}
+
+.tileFont{
+  align-self: center;
+  font-size: 200%;
+}
+
+.tileStyle-active-0{
+  background-color:#DDCCBB;
+  color:#DDCCBB;
+}
+.tileStyle-active-2{
+  background-color: #EEEEEE;
+  color: #776666;
+}
+.tileStyle-active-4{
+  background-color: #EEEECC;
+  color: #776666;
+}
+.tileStyle-active-8{
+  background-color: #FFBB88;
+  color: #FFFFEE;
+}
+.tileStyle-active-16{
+  background-color: #FF9966;
+  color: #FFFFEE;
+}
+.tileStyle-active-32{
+  background-color: #FF7755;
+  color:#FFFFEE;
+}
+.tileStyle-active-64{
+  background-color: #FF5533;
+  color:#FFFFEE;
+}
+.tileStyle-active-128{
+  background-color: #EECC77;
+  color:#FFFFEE;
+}
+.tileStyle-active-256{
+  background-color: #EDC22E;
+  color: #FFFFFF;
+}
+.tileStyle-active-512{
+  background-color: #EDC850;
+  color: #F9F6F2;
+}
+.tileStyle-active-1024{
+  background-color: #EDC53F;
+  color: white;
+}
+.tileStyle-active-2048{
+  background-color: #EDC22E;
+  color: white;
+}
+
+.mOverlay{
+  color: rgb(83, 73, 73);
+  background: rgb(214, 212, 204);
+  border-radius: 0.25rem;
+  text-align: center;
+  padding:3%;
+  padding-top:0%;
+  margin-top:10%;
+}
+
+.btn {
+  font-size: 5rem;
+  border: 2px solid black;
+  background-color: #776666;
+  color: white;
+  padding: 2px 2px;
+  height: 40px;
+  width: 80px;
+  margin: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #776666;
+}
+
+.btn-newgame{
+  width: 120px;
+}
+
+.btn:focus{
+  outline: 0;
+}
+.btn:hover {
+  background-color: #D6D4CC;
+  color: #776666;
+}
